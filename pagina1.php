@@ -12,11 +12,11 @@
         $hora = date("H");
 
         if($hora < 12){
-            echo "<p>Bom Dia!</p>";
+            echo "<p>" .$hora. "hs.Bom Dia!</p>";
         }else if($hora < 18){
-            echo "<p>Boa tarde à todos</p>";
+            echo "<p>" .$hora. "hs.Boa tarde à todos</p>";
         }else{
-            echo "<p>Boa noite!</p>";
+            echo "<p>" .$hora. "hs.Boa noite!</p>";
         }
 
     ?>

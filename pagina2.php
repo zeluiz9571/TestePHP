@@ -9,7 +9,7 @@
 <body>
 <?php
         $dia = 22;
-        $mes = 9;
+        $mes = 2;
 
         switch($mes){
             case 1:

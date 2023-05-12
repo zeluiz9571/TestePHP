@@ -16,7 +16,7 @@
         }else if($hora < 18){
             echo "<p>Boa tarde à todos</p>";
         }else{
-            echo "<p>Boa noite!</p>"
+            echo "<p>Boa noite!</p>";
         }
 
     ?>

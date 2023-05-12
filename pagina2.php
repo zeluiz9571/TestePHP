@@ -17,10 +17,10 @@
             case 3:
                 if($mes == 3 and $dia >= 20){
                     echo "<p>Outono</p>";
-                    echo "<img src='img/outono.png'>";
+                    echo "<img src='img/outono.jpg'";
                 } else{
                     echo "<p>Verão</p>";
-                    echo "<img src='img/verao.png'>";
+                    echo "<img src='img/verao.jpg'>";
                 }
                 break;
             case 4:
@@ -28,10 +28,10 @@
             case 6:
                 if($mes == 6 and $dia >= 21){
                     echo "<p>Inverno</p>";
-                    echo "<img src='img/inverno.png'>";
+                    echo "<img src='img/inverno.jpg'>";
                 }else{
                     echo "<p>Outono</p>";
-                    echo "<img src='img/outono.png'>";
+                    echo "<img src='img/outono.jpg'>";
                 }
                 break;
             case 7:
@@ -39,10 +39,10 @@
             case 9:
                 if($mes == 9 and $dia >= 23){
                     echo "<p>Primavera</p>";
-                    echo "<img src='img/primavera.png'>";
+                    echo "<img src='img/primavera.jpg'>";
                 } else {
                     echo "<p>Inverno</p>";
-                    echo "<img src='img/inverno.png'>";
+                    echo "<img src='img/inverno.jpg'>";
                 }
                 break;
             case 10:
@@ -50,10 +50,10 @@
             case 12:
                 if($mes == 12 and $dia >= 22){
                     echo "<p>Verão</p>";
-                    echo "<img src='img/verao.png'>";
+                    echo "<img src='img/verao.jpg'>";
                 } else {
                     echo "<p>Primavera</p>";
-                    echo "<img src='img/primavera.png'>";
+                    echo "<img src='img/primavera.jpg'>";
                 }
                 break;
             default:
